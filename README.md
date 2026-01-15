@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Tech Fest 2026  
+# Signifiya Tech Fest 2026  
 ### Official Website of Our College Technical Fest
 
 ✨ Innovate • Build • Compete • Inspire ✨
@@ -11,9 +11,9 @@
 
 ---
 
-## 🌟 About Tech Fest 2026
+## 🌟 About Signifiya 2026
 
-**Tech Fest 2026** is the annual technical festival of our college, bringing together **innovation, creativity, and technology** under one roof.  
+**Signifiya 2026** is the annual technical festival of our college, bringing together **innovation, creativity, and technology** under one roof.  
 The fest features **technical competitions, workshops, hackathons, keynote talks, and cultural showcases**, providing a platform for students to learn, compete, and collaborate.
 
 This repository contains the **official Tech Fest 2026 web application**, built with modern web technologies to deliver a smooth, responsive, and engaging experience.
