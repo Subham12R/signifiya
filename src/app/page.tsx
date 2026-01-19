@@ -271,7 +271,7 @@ export default function Home() {
           </div>
 
           {/* Logo Top Left */}
-          <div className="fixed top-12 sm:top-15 left-8 z-60">
+          {/* <div className="fixed top-12 sm:top-15 left-8 z-60">
             <div className="w-20 h-20 relative">
             <Image
                 src="/logo2.png"  
@@ -280,7 +280,7 @@ export default function Home() {
                 className="object-contain"
                />
             </div>
-          </div>
+          </div> */}
 
           
           {/* Main Content - Timer */}

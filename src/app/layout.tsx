@@ -4,6 +4,7 @@ import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import { AudioProvider } from "@/components/AudioProvider";
 import CustomCursor from "@/components/CustomCursor2";
+import Navbar from "@/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +31,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+
         <CustomCursor />
         <AudioProvider>
           <SmoothScroll>{children}</SmoothScroll>

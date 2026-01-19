@@ -34,7 +34,7 @@ export default function About() {
                             Signifiya is not just an event; it&apos;s an experience. We bring together the brightest minds, the boldest creators, and the most passionate individuals for a celebration of innovation, art, and culture.
                         </p>
                         <div className="mt-8">
-                             <a href="/visitor-registration" className={`inline-block bg-black text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full border-2 border-transparent hover:bg-[#deb3fa] hover:text-black hover:border-black hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all ml-5 sm:ml-0 uppercase font-bold text-xs sm:text-sm tracking-wider cursor-none ${softura.className}`}>
+                             <a href="/register" className={`inline-block bg-black text-white px-4 py-2 sm:px-6 sm:py-3 rounded-full border-2 border-transparent hover:bg-[#deb3fa] hover:text-black hover:border-black hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all ml-5 sm:ml-0 uppercase font-bold text-xs sm:text-sm tracking-wider cursor-none ${softura.className}`}>
                                 Get Visitor&apos;s Pass
                             </a>
                             <p className={`text-black text-xs font-medium mt-2 max-w-xs ml-6 sm:ml-0 ${softura.className} opacity-70`}>

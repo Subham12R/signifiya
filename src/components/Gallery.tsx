@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import Image from "next/image";
 import FadeIn from "./FadeIn";
 import { motion } from "motion/react";
+import { Link } from "lucide-react";
 
 const gilton = localFont({ src: "../../public/fonts/GiltonRegular.otf" });
 const softura = localFont({ src: "../../public/fonts/Softura-Demo.otf" });
@@ -57,8 +58,10 @@ export default function Gallery() {
             </div>
             
              {/* View More Button */}
-             <div className="flex justify-center mt-4">
-                <button className={`bg-black text-white px-8 py-3 rounded-full border-2 border-white shadow-[6px_6px_0px_0px_rgba(0,0,0,0.2)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,0.2)] hover:translate-x-[3px] hover:translate-y-[3px] transition-all uppercase font-bold text-lg tracking-wider ${softura.className}`}>
+              <div className="flex justify-center mt-4">
+                  
+                  <button className={`bg-black text-white px-8 py-3 rounded-full border-2 border-white shadow-[6px_6px_0px_0px_rgba(0,0,0,0.2)] hover:shadow-[3px_3px_0px_0px_rgba(0,0,0,0.2)] hover:translate-x-[3px] hover:translate-y-[3px] transition-all uppercase font-bold text-lg tracking-wider ${softura.className}`}>
+                      
                     View Gallery
                 </button>
             </div>

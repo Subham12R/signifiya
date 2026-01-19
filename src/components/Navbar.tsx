@@ -39,7 +39,24 @@ export default function Navbar({
   const isMenuVisible = isDesktop ? showNavLinks : mobileMenuOpen;
 
   return (
+    <div>
+      {/* Fixed Logo at Right Corner */}
+      <div className="fixed top-20 lg:top-16 sm:top-12 left-10 z-50  bg-black  rounded-full">
+        <Link href="/">
+          <Image
+            src="/logo2.png"
+            alt="Logo"
+            width={64}
+            height={64}
+            className="object-contain"
+            priority
+          />
+        </Link>
+     
+      </div>
+
     <div className="fixed top-16 sm:top-16 right-8 sm:right-8 flex flex-col items-end gap-2 sm:gap-4 z-50">
+
       <div className="flex items-start gap-2 sm:gap-4">
          {/* Navigation Menu Container */}
          <div className="relative group/nav z-50">
@@ -72,9 +89,9 @@ export default function Navbar({
            {/* Menu - Vertical on Mobile, Horizontal on Desktop */}
            <div className={`absolute top-full sm:top-0 right-0 sm:right-full mt-2 sm:mt-0 sm:pr-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-2 sm:gap-3 transition-all duration-300 ease-out sm:group-hover/nav:opacity-100 sm:group-hover/nav:translate-y-0 sm:group-hover/nav:visible ${isMenuVisible ? 'opacity-100 translate-y-0 visible' : 'opacity-0 -translate-y-4 sm:-translate-y-4 invisible'}`}>
               {[
-                { name: 'About', href: '/' },
+                { name: 'Gallery', href: '/gallery' },
                 { name: 'Merchandise', href: '/#about' },
-                { name: 'Schedule', href: '/#schedule' },
+                { name: 'Schedule', href: '/schedule' },
                 { name: 'Events', href: '/#events' },
                 { name: 'FAQ', href: '/#faq' }
               ].map((item, index) => (
@@ -188,6 +205,7 @@ export default function Navbar({
           </button>
           )}
       </div>
-    </div>
+      </div>
+          </div>  
   );
 }
