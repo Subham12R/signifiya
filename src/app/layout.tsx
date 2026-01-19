@@ -5,7 +5,7 @@ import SmoothScroll from "@/components/SmoothScroll";
 import { AudioProvider } from "@/components/AudioProvider";
 import CustomCursor from "@/components/CustomCursor2";
 import Navbar from "@/components/Navbar";
-
+import { Analytics } from "@vercel/analytics/next"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
