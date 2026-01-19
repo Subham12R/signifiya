@@ -118,9 +118,8 @@ export default function Team() {
                             <div 
                                 onMouseEnter={() => setActiveMember(member)}
                                 onClick={() => setActiveMember(member)}
-                                className={`group flex items-center transition-all duration-300 py-1.5 sm:py-2 cursor-none ${activeMember.id === member.id ? 'translate-x-2 sm:translate-x-4' : 'hover:translate-x-2'}`}
+                                className={`group flex items-center transition-all duration-300 py-1.5 sm:py-2 cursor-none ${activeMember.id === member.id ? 'translate-x-1 sm:translate-x-2' : 'hover:translate-x-2'}`}
                             >
-                                {/* <div className={`w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full bg-black transition-all duration-300 shrink-0 ${activeMember.id === member.id ? 'opacity-100 scale-125' : 'opacity-0 scale-0 group-hover:opacity-50 group-hover:scale-100'}`}></div> */}
                                 <h3 className={`text-lg sm:text-3xl md:text-[5vw] tracking-tighter leading-tight font-bold uppercase transition-colors duration-300 ${activeMember.id === member.id ? 'text-black' : 'text-gray-400 group-hover:text-black'}`}>
                                     {member.name}
                                 </h3>
