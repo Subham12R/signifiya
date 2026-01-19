@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "SIGNIFIYA'26",
-  description: "Designed & Developed by ard.dev",
+  description: "Designed & Developed by ard.dev & subham12r",
 };
 
 export default function RootLayout({
