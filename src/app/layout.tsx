@@ -36,6 +36,7 @@ export default function RootLayout({
         <AudioProvider>
           <SmoothScroll>{children}</SmoothScroll>
         </AudioProvider>
+        <Analytics />
       </body>
     </html>
   );
